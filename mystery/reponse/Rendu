@@ -1,0 +1,347 @@
+Tout d'abord nous avons cherché les indices dans crimescene avec nano afin de trouver les "clues" et avons trouvé ceci :
+-Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'
+-Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annnabele
+-Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable
+
+Nous avons ensuite remonté la piste avec le nom de Annabele et avons noté :
+-Annabele Church
+
+ensuite nous avons trouvé son adresse dans people avec nano ctrl f afin de recuperer :
+-Annabel Church  F       38      Buckingham Place, line 179
+
+Ca nous a ensuite emmmené 699607 disant ceci :
+-nterviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"
+
+
+Cela nous a donné des infos supplémentaires surtout sur le fait que le suspect avait une honda bleue avec une plaque commencant avec L337 et finissant par un 9
+
+Sachant que nous savons que le tireur est un homme et mesure pas moins de 6" et possède une honda bleue avec cet plaque nous avons plusieurs suspects :
+
+License Plate L337369
+Make: Honda
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+
+Qui avait un alibi : 
+SEE INTERVIEW #2939888
+Billings should not be considered a suspect, she is too short to match the camera footage and the killer is believed to be male.
+
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+
+Qui avait aussi un alibi en plus d'etre une femme :
+
+SEE INTERVIEW #5455315
+Owens has an alibi for the morning in question, she was in Toronto for the Mozilla All Hands Meeting.  Multiple sources, including a person  fox costume, corroborate this.  Not a suspect.
+
+
+License Plate L337539
+Make: Honda
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+Weight: 198 lbs
+
+qui avait un alibi, trop petit :
+
+SEE INTERVIEW #1767435
+Too short to match the camera footage.  Pilhofer is not considered a suspect.
+
+Et nous arrivons sur le dernier suspect qui n'as pas d'alibi qui est ce monsieur :
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+
+avec cette explication qui le qualifie d'office comme couplable car le seul sans alibi :
+
+SEE INTERVIEW #9620713
+Home appears to be empty, no answer at the door.
+
+After questioning neighbors, appears that the occupant may have left for a trip recently.
+
+Considered a suspect until proven otherwise, but would have to eliminate other suspects to confirm.
+
+
+Nous avons également éxécuté cette commande : awk 'FNR==NR {a[$0]++; next} $0 in a' AAA Delta_SkyMiles  | awk 'FNR==NR {b[$0]++; next} $0 in b' - Terminal_City_Library  | awk 'FNR==NR {b[$0]++; next} $0 in b' - Museum_of_Bash_History
+pour trouver tous les noms qui étaient renseignés dans la base de données du Musée, de la librairie, delta skymiles et AAA :
+
+Andrei Masna
+Jeremy Bowers
+Sonata Raif
+Augustin Lozano
+Brian Boyer
+Dalibor Vidal
+Mary Tomashova
+Didier Munoz
+Deron Estanguet
+Stephanie Adlington
+Marina Murphy
+Tamara Cafaro
+Matt Waite
+Emma Wei
+Mike Bostock
+Tout d'abord nous avons cherché les indices dans crimescene avec nano afin de trouver les "clues" et avons trouvé ceci :
+-Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'
+-Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annnabele
+-Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable
+
+Nous avons ensuite remonté la piste avec le nom de Annabele et avons noté :
+-Annabele Church
+
+ensuite nous avons trouvé son adresse dans people avec nano ctrl f afin de recuperer :
+-Annabel Church  F       38      Buckingham Place, line 179
+
+Ca nous a ensuite emmmené 699607 disant ceci :
+-nterviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"
+
+Tout d'abord nous avons cherché les indices dans crimescene avec nano afin de trouver les "clues" et avons trouvé ceci :
+-Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'
+-Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annnabele
+-Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable
+
+Nous avons ensuite remonté la piste avec le nom de Annabele et avons noté :
+-Annabele Church
+
+ensuite nous avons trouvé son adresse dans people avec nano ctrl f afin de recuperer :
+-Annabel Church  F       38      Buckingham Place, line 179
+
+Ca nous a ensuite emmmené 699607 disant ceci :
+-nterviewed Ms. Church at 2:04 pm.  Witness stated that she did not see anyone she could identify as the shooter, that she ran away as soon as the shots were fired.
+
+However, she reports seeing the car that fled the scene.  Describes it as a blue Honda, with a license plate that starts with "L337" and ends with "9"
+
+
+Cela nous a donné des infos supplémentaires surtout sur le fait que le suspect avait une honda bleue avec une plaque commencant avec L337 et finissant par un 9
+
+Sachant que nous savons que le tireur est un homme et mesure pas moins de 6" et possède une honda bleue avec cet plaque nous avons plusieurs suspects :
+
+License Plate L337369
+Make: Honda
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+
+Qui avait un alibi :
+SEE INTERVIEW #2939888
+Billings should not be considered a suspect, she is too short to match the camera footage and the killer is believed to be male.
+
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+
+Qui avait aussi un alibi en plus d'etre une femme :
+
+SEE INTERVIEW #5455315
+Owens has an alibi for the morning in question, she was in Toronto for the Mozilla All Hands Meeting.  Multiple sources, including a person  fox costume, corroborate this.  Not a suspect.
+
+
+License Plate L337539
+Make: Honda
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+
+Cela nous a donné des infos supplémentaires surtout sur le fait que le suspect avait une honda bleue avec une plaque commencant avec L337 et finissant par un 9
+
+Sachant que nous savons que le tireur est un homme et mesure pas moins de 6" et possède une honda bleue avec cet plaque nous avons plusieurs suspects :
+
+License Plate L337369
+Make: Honda
+Color: Blue
+Owner: Heather Billings
+Height: 5'2"
+Weight: 244 lbs
+
+Qui avait un alibi :
+SEE INTERVIEW #2939888
+Billings should not be considered a suspect, she is too short to match the camera footage and the killer is believed to be male.
+
+License Plate L337QE9
+Make: Honda
+Color: Blue
+Owner: Erika Owens
+Height: 6'5"
+Weight: 220 lbs
+
+Qui avait aussi un alibi en plus d'etre une femme :
+
+SEE INTERVIEW #5455315
+Owens has an alibi for the morning in question, she was in Toronto for the Mozilla All Hands Meeting.  Multiple sources, including a person  fox costume, corroborate this.  Not a suspect.
+
+
+License Plate L337539
+Make: Honda
+Color: Blue
+Owner: Aron Pilhofer
+Height: 5'3"
+
+
+Nous avons aussi cherché dans les registres les nom qui existaient dans AAA, le musée, la librairie, delta skymiles avec la commande suivante :
+awk 'FNR==NR {a[$0]++; next} $0 in a' AAA Delta_SkyMiles  | awk 'FNR==NR {b[$0]++; next} $0 in b' - Terminal_City_Library  | awk 'FNR==NR {b[$0]++; next} $0 in b' - Museum_of_Bash_History
+
+Andrei Masna
+Jeremy Bowers
+Sonata Raif
+Augustin Lozano
+Brian Boyer
+Dalibor Vidal
+Mary Tomashova
+Didier Munoz
+Deron Estanguet
+Stephanie Adlington
+Marina Murphy
+Tamara Cafaro
+Matt Waite
+Emma Wei
+Mike Bostock
+Liangliang Miller
+Krystian Pen
+Jacqui Maher
+Monika Hwang
+Kelly Kulish
+Aldo Nicolas
+Nikolaus Milatz
+Jamila Rodhe
+
+
+et voici l'historique de commande : 
+
+176  git clone https://github.com/StarPawn/Command_Line_Mystery.git
+  177  ls
+  178  cd clmystery
+  179  ls
+  180  cd ..
+  181  cd desktop
+  182  ls
+  183  clea
+  184  clear
+  185  ls
+  186  git clone https://github.com/StarPawn/Command_Line_Mystery.git
+  187  cd Command_Line_Mystery
+  188  ls
+  189  cat README.md
+  190  cd ..
+  191  ls
+  192  cd Command_Line_Mystery/
+  193  ls
+  194  cd README.md
+  195  ls
+  196  cd README.md
+  197  cat README.md
+  198  cd ..
+  199  ls
+  200  cd Command_Line_Mystery/
+  201  ls
+  202  cd mystery/
+  203  ls
+  204  nano crimescene
+  205  ls
+  206  cd interviews/
+  207  ls
+  208  cd ..
+  209  l
+  210  ls
+  211  cd memberships/
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd memberships/
+  216  ls
+  217  cd AAA
+  218  ls
+  219  cat AAA
+  220  hababel
+  221  git grep hanabel
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd vehicles
+  226  cat vehicles
+  227  nano
+  228  nano vehicles
+  229  ls
+  230  cd memberships/
+  231  cdl
+  232  ls
+  233  cat AAA
+  234  nano AAA
+  235  ls
+  236  cd ..
+  237  l
+  238  ls
+  239  cd interviews/
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd memberships/
+  244  ls
+  245  cat AAA
+  246  nano
+  247  nano membership
+  248  cd ..
+  249  ls
+  250  nano memberships/
+  251  cd memberships/
+  252  ls
+  253  nano AAA
+  254  cat Delta_SkyMiles
+  255  nano Delta_SkyMiles
+  256  cd ..
+  257  ls
+  258  cd memberships/
+  259  ls
+  260  nano AAA
+  261  nano Delta_SkyMiles
+  262  nano AAA
+  263  nano Terminal_City_Library
+  264  lq
+  265  ls
+  266  cd ..
+  267  ls
+  268  cd memberships/
+  269  ls
+  270  cat Terminal_City_Library
+  271  nano Terminal_City_Library
+  272  ls
+  273  nano Terminal_City_Library
+  274  ls
+  275  cd ..
+  276  ls
+  277  nano vehicles
+  278  nano vehicles
+  279  cd ..
+  280  ls
+  281  cd mystery/
+  282  ls
+  283  cd memerships/
+  284  ls
+  285  cd ..
+  286  ls
+  287  cat vehicles
+  288  nano vehicles
+  289  history
+  290  cd
+  291  ls
+  292  cd Command_Line_Mystery/
+  293  l
+  294  ls
+  295  cd mystery/
+  296  ls
+  297  nano crimescene
